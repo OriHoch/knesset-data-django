@@ -17,6 +17,9 @@ class RootDatapackageScraper(BaseScraper):
         "knesset_data_django.committees.scrapers.committees.CommitteesScraper",
         "knesset_data_django.committees.scrapers.committee_meetings.CommitteeMeetingsScraper",
         "knesset_data_django.committees.scrapers.committee_meeting_protocols.CommitteeMeetingProtocolsScraper",
+        "knesset_data_django.kns_persons.scrapers.PersonScraper",
+        "knesset_data_django.kns_persons.scrapers.PersonPositionScraper",
+        "knesset_data_django.kns_persons.scrapers.PersonToPositionScraper",
     )
 
     def __init__(self, **kwargs):
